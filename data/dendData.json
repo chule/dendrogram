@@ -1,0 +1,301 @@
+{
+  "children": [
+    {
+      "children": [
+        { "children": [], "height": 0, "size": 1, "index": 12, "isLeaf": true },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "height": 0,
+                  "size": 1,
+                  "index": 7,
+                  "isLeaf": true
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "height": 0,
+                      "size": 1,
+                      "index": 10,
+                      "isLeaf": true
+                    },
+                    {
+                      "children": [],
+                      "height": 0,
+                      "size": 1,
+                      "index": 8,
+                      "isLeaf": true
+                    }
+                  ],
+                  "height": 1.0546254108005773,
+                  "size": 2,
+                  "index": -1,
+                  "isLeaf": false
+                }
+              ],
+              "height": 1.3967204816351888,
+              "size": 3,
+              "index": -1,
+              "isLeaf": false
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "height": 0,
+                  "size": 1,
+                  "index": 9,
+                  "isLeaf": true
+                },
+                {
+                  "children": [
+                    {
+                      "children": [],
+                      "height": 0,
+                      "size": 1,
+                      "index": 13,
+                      "isLeaf": true
+                    },
+                    {
+                      "children": [],
+                      "height": 0,
+                      "size": 1,
+                      "index": 11,
+                      "isLeaf": true
+                    }
+                  ],
+                  "height": 0.9687578651571978,
+                  "size": 2,
+                  "index": -1,
+                  "isLeaf": false
+                }
+              ],
+              "height": 1.9762640724083562,
+              "size": 3,
+              "index": -1,
+              "isLeaf": false
+            }
+          ],
+          "height": 2.329207547753628,
+          "size": 6,
+          "index": -1,
+          "isLeaf": false
+        }
+      ],
+      "height": 2.5542760810475906,
+      "size": 7,
+      "index": -1,
+      "isLeaf": false
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [],
+              "height": 0,
+              "size": 1,
+              "index": 17,
+              "isLeaf": true
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "height": 0,
+                  "size": 1,
+                  "index": 16,
+                  "isLeaf": true
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 19,
+                          "isLeaf": true
+                        },
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 18,
+                          "isLeaf": true
+                        }
+                      ],
+                      "height": 0.9316543593024913,
+                      "size": 2,
+                      "index": -1,
+                      "isLeaf": false
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 20,
+                          "isLeaf": true
+                        },
+                        {
+                          "children": [
+                            {
+                              "children": [],
+                              "height": 0,
+                              "size": 1,
+                              "index": 15,
+                              "isLeaf": true
+                            },
+                            {
+                              "children": [],
+                              "height": 0,
+                              "size": 1,
+                              "index": 14,
+                              "isLeaf": true
+                            }
+                          ],
+                          "height": 0.8178603960177143,
+                          "size": 2,
+                          "index": -1,
+                          "isLeaf": false
+                        }
+                      ],
+                      "height": 0.9393227124709612,
+                      "size": 3,
+                      "index": -1,
+                      "isLeaf": false
+                    }
+                  ],
+                  "height": 1.2555960681431546,
+                  "size": 5,
+                  "index": -1,
+                  "isLeaf": false
+                }
+              ],
+              "height": 1.8449850974486481,
+              "size": 6,
+              "index": -1,
+              "isLeaf": false
+            }
+          ],
+          "height": 2.0360870807937843,
+          "size": 7,
+          "index": -1,
+          "isLeaf": false
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [],
+                  "height": 0,
+                  "size": 1,
+                  "index": 4,
+                  "isLeaf": true
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 5,
+                          "isLeaf": true
+                        },
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 1,
+                          "isLeaf": true
+                        }
+                      ],
+                      "height": 0.7231457992859123,
+                      "size": 2,
+                      "index": -1,
+                      "isLeaf": false
+                    },
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 2,
+                          "isLeaf": true
+                        },
+                        {
+                          "children": [],
+                          "height": 0,
+                          "size": 1,
+                          "index": 0,
+                          "isLeaf": true
+                        }
+                      ],
+                      "height": 1.0506494559668733,
+                      "size": 2,
+                      "index": -1,
+                      "isLeaf": false
+                    }
+                  ],
+                  "height": 1.279793811522218,
+                  "size": 4,
+                  "index": -1,
+                  "isLeaf": false
+                }
+              ],
+              "height": 1.4134573124763428,
+              "size": 5,
+              "index": -1,
+              "isLeaf": false
+            },
+            {
+              "children": [
+                {
+                  "children": [],
+                  "height": 0,
+                  "size": 1,
+                  "index": 6,
+                  "isLeaf": true
+                },
+                {
+                  "children": [],
+                  "height": 0,
+                  "size": 1,
+                  "index": 3,
+                  "isLeaf": true
+                }
+              ],
+              "height": 1.8318221989845844,
+              "size": 2,
+              "index": -1,
+              "isLeaf": false
+            }
+          ],
+          "height": 2.2161770625391934,
+          "size": 7,
+          "index": -1,
+          "isLeaf": false
+        }
+      ],
+      "height": 2.674108475994406,
+      "size": 14,
+      "index": -1,
+      "isLeaf": false
+    }
+  ],
+  "height": 4.186308679481455,
+  "size": 21,
+  "index": -1,
+  "isLeaf": false
+}
