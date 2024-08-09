@@ -1,95 +1,265 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Dendrogram from "@/components/Dendrogram/Dendrogram";
+
+const data = {
+  children: [
+    {
+      children: [
+        { children: [], height: 0, size: 1, index: 12, isLeaf: true },
+        {
+          children: [
+            {
+              children: [
+                { children: [], height: 0, size: 1, index: 7, isLeaf: true },
+                {
+                  children: [
+                    {
+                      children: [],
+                      height: 0,
+                      size: 1,
+                      index: 10,
+                      isLeaf: true,
+                    },
+                    {
+                      children: [],
+                      height: 0,
+                      size: 1,
+                      index: 8,
+                      isLeaf: true,
+                    },
+                  ],
+                  height: 1.0546254108005773,
+                  size: 2,
+                  index: -1,
+                  isLeaf: false,
+                },
+              ],
+              height: 1.3967204816351888,
+              size: 3,
+              index: -1,
+              isLeaf: false,
+            },
+            {
+              children: [
+                { children: [], height: 0, size: 1, index: 9, isLeaf: true },
+                {
+                  children: [
+                    {
+                      children: [],
+                      height: 0,
+                      size: 1,
+                      index: 13,
+                      isLeaf: true,
+                    },
+                    {
+                      children: [],
+                      height: 0,
+                      size: 1,
+                      index: 11,
+                      isLeaf: true,
+                    },
+                  ],
+                  height: 0.9687578651571978,
+                  size: 2,
+                  index: -1,
+                  isLeaf: false,
+                },
+              ],
+              height: 1.9762640724083562,
+              size: 3,
+              index: -1,
+              isLeaf: false,
+            },
+          ],
+          height: 2.329207547753628,
+          size: 6,
+          index: -1,
+          isLeaf: false,
+        },
+      ],
+      height: 2.5542760810475906,
+      size: 7,
+      index: -1,
+      isLeaf: false,
+    },
+    {
+      children: [
+        {
+          children: [
+            { children: [], height: 0, size: 1, index: 17, isLeaf: true },
+            {
+              children: [
+                { children: [], height: 0, size: 1, index: 16, isLeaf: true },
+                {
+                  children: [
+                    {
+                      children: [
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 19,
+                          isLeaf: true,
+                        },
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 18,
+                          isLeaf: true,
+                        },
+                      ],
+                      height: 0.9316543593024913,
+                      size: 2,
+                      index: -1,
+                      isLeaf: false,
+                    },
+                    {
+                      children: [
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 20,
+                          isLeaf: true,
+                        },
+                        {
+                          children: [
+                            {
+                              children: [],
+                              height: 0,
+                              size: 1,
+                              index: 15,
+                              isLeaf: true,
+                            },
+                            {
+                              children: [],
+                              height: 0,
+                              size: 1,
+                              index: 14,
+                              isLeaf: true,
+                            },
+                          ],
+                          height: 0.8178603960177143,
+                          size: 2,
+                          index: -1,
+                          isLeaf: false,
+                        },
+                      ],
+                      height: 0.9393227124709612,
+                      size: 3,
+                      index: -1,
+                      isLeaf: false,
+                    },
+                  ],
+                  height: 1.2555960681431546,
+                  size: 5,
+                  index: -1,
+                  isLeaf: false,
+                },
+              ],
+              height: 1.8449850974486481,
+              size: 6,
+              index: -1,
+              isLeaf: false,
+            },
+          ],
+          height: 2.0360870807937843,
+          size: 7,
+          index: -1,
+          isLeaf: false,
+        },
+        {
+          children: [
+            {
+              children: [
+                { children: [], height: 0, size: 1, index: 4, isLeaf: true },
+                {
+                  children: [
+                    {
+                      children: [
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 5,
+                          isLeaf: true,
+                        },
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 1,
+                          isLeaf: true,
+                        },
+                      ],
+                      height: 0.7231457992859123,
+                      size: 2,
+                      index: -1,
+                      isLeaf: false,
+                    },
+                    {
+                      children: [
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 2,
+                          isLeaf: true,
+                        },
+                        {
+                          children: [],
+                          height: 0,
+                          size: 1,
+                          index: 0,
+                          isLeaf: true,
+                        },
+                      ],
+                      height: 1.0506494559668733,
+                      size: 2,
+                      index: -1,
+                      isLeaf: false,
+                    },
+                  ],
+                  height: 1.279793811522218,
+                  size: 4,
+                  index: -1,
+                  isLeaf: false,
+                },
+              ],
+              height: 1.4134573124763428,
+              size: 5,
+              index: -1,
+              isLeaf: false,
+            },
+            {
+              children: [
+                { children: [], height: 0, size: 1, index: 6, isLeaf: true },
+                { children: [], height: 0, size: 1, index: 3, isLeaf: true },
+              ],
+              height: 1.8318221989845844,
+              size: 2,
+              index: -1,
+              isLeaf: false,
+            },
+          ],
+          height: 2.2161770625391934,
+          size: 7,
+          index: -1,
+          isLeaf: false,
+        },
+      ],
+      height: 2.674108475994406,
+      size: 14,
+      index: -1,
+      isLeaf: false,
+    },
+  ],
+  height: 4.186308679481455,
+  size: 21,
+  index: -1,
+  isLeaf: false,
+};
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+  return <Dendrogram data={data} width={900} height={600} />;
 }
